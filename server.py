@@ -9,7 +9,7 @@ def run_server():
     backend = context.socket(zmq.PUB)
     backend.bind("tcp://*:5557")
 
-    folder_path = "/home/tuitachi/python-sync/server"  # Thư mục để lưu file từ client1
+    folder_path = "/home/tuitachi/client-server-dropbox/server"  # Thư mục để lưu file từ client1
 
     while True:
         [client, filename, contents] = frontend.recv_multipart()

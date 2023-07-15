@@ -7,7 +7,7 @@ def run_client():
     socket.connect("tcp://localhost:5557")
     socket.subscribe(b'')
 
-    folder_path = "/home/tuitachi/python-sync/client2"  # Thư mục để lưu file từ server
+    folder_path = "/home/tuitachi/client-server-dropbox/client2"  # Thư mục để lưu file từ server
 
     while True:
         [filename, contents] = socket.recv_multipart()

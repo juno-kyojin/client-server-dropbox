@@ -6,7 +6,7 @@ def run_client():
     socket = context.socket(zmq.PUSH)
     socket.connect("tcp://localhost:5556")
 
-    folder_path = "/home/tuitachi/python-sync/client1"  # Thư mục chứa file của client1
+    folder_path = "/home/tuitachi/client-server-dropbox/client1"  # Thư mục chứa file của client1
 
     while True:
         filename = input("Enter the filename to send (or 'exit' to quit): ")
