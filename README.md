@@ -2,7 +2,7 @@
 Đây là dự án mô phỏng chức năng cơ bản của Dropbox, bao gồm client và server để truyền tải và lưu trữ file bằng cách dùng rsync và inotify.
 
 Tư tưởng bài toán
-![alt]([http://~](https://drive.google.com/file/d/12BH8hEp1cxHMPE5w8BjokkVyKmdmZ_Sw/view?usp=sharing))
+![Biểu đồ không có tiêu đề](https://github.com/juno-kyojin/client-server-dropbox/assets/136924962/01f0bae0-9dcc-400c-b987-b44f92f117f2)
 
 ## **Hướng dẫn cài đặt và hoạt động** <br>
 ### **Cài đặt** <br>
